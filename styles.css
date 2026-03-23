@@ -3,6 +3,16 @@
 }
 
 
+.pink-bg{
+   background-color: pink;
+}
+
+p{
+   background-color: plum;
+}
+
+
+
 /* ─────────────────────────────────────────────
    PART 1 — Fully Guided
    We tell you the name AND what goes inside.
@@ -11,14 +21,23 @@
 
 /* Task 1: Write a CLASS rule called "pink-bg"
    It should change the background color to pink */
+   .pink-bg{
+   background-color: pink;
 
 
 /* Task 2: Write a CLASS rule called "blue-text"
    It should change the text color to blue */
+   .blue-text{
+
+   }
 
 
 /* Task 3: Write a CLASS rule called "big-border"
    It should add a border — use: 3px solid black */
+
+   .big-border{
+      border: 30px;
+   }
 
 
 /* Task 4: Write an ID rule called "main-title"
@@ -56,9 +75,16 @@
    ───────────────────────────────────────────── */
 
 /* Your class rule 1 */
-
+.card{
+   background-color: aqua;
+}
 
 /* Your class rule 2 */
-
+.title{
+   color: blueviolet;
+}
 
 /* Your ID rule */
+.main{
+   background-color: blue;
+}
